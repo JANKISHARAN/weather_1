@@ -5,7 +5,7 @@
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "jsx": "react-jsx",
-    "baseUrl": ".",
+    const BASE_URL = "https://your-backend-url.com"
     "paths": {
       "@/*": ["src/*"]
     }
