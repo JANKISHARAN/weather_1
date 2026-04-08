@@ -132,7 +132,7 @@ export const WeatherProvider = ({ children }) => {
     } catch (err) {
       console.error('Failed to add to history:', err);
     }
-  }, []);
+  }, [fetchSearchHistory]);
 
   // Fetch search history
   const fetchSearchHistory = useCallback(async () => {
