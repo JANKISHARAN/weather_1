@@ -106,16 +106,8 @@ const WeatherDashboard = () => {
 };
 
 function App() {
-  return (
-    <WeatherProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<WeatherDashboard />} />
-          <Route path="*" element={<WeatherDashboard />} />
-        </Routes>
-      </BrowserRouter>
-    </WeatherProvider>
-  );
+  return 
+    <h1 style={{ color:"black"}}>APP IS WORKING</h1>;
 }
 
 export default App;
